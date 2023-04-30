@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="taskbarstyle.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="Menu">
+        <img src="img/logoo.png" alt="logo" width="150" height="150">
+        <ul>
+            <li><a href="home.html">Gym Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="Class.html">Class</a></li>
+            <li><a href="Registration.html">Join Now</a></li>
+        </ul>
+    </header>
+
+    <div>
+        <img src="img/reg2.jpg" alt="gym" width="100%" height="100%">
+    </div>
+
+    <h2>Register Now</h2>
+    <form>
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+
+        <div>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+        </div>
+
+        <div>
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" min="18" max="100" required>
+        </div>
+
+        <div>
+            <label for="gender">Gender:</label>
+            <select id="gender" name="gender" required>
+                <option value="">--Please select--</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select>
+        </div>
+
+        <div>
+            <button type="submit" class="cta">Register</button>
+        </div>
+    </form>
+
+
+    <hr style="width:85%; text-align:center;">
+    <footer>
+        <div class="footer-contact">
+            <h4>Contact Information</h4>
+            <address>
+                Khilda Amman<br>
+                123 Main Street<br>
+                Amman, Jordan<br>
+                <a href="https://www.google.com/maps/place/Khilda,+Amman/@31.9894209,35.8191486,14z/data=!3m1!4b1!4m6!3m5!1s0x151ca19264f539f3:0x2b620355c1fddf92!8m2!3d31.9901273!4d35.8451072!16s%2Fm%2F012g4z9c"
+                    target="_blank">View on Google Maps</a>
+            </address>
+            <a href="mailto:info@elitegym.jo">info@elitegym.jo</a>
+        </div>
+
+        <div class="footer-links">
+            <ul>
+                <li><a href="PrivacyPolicy.html">Privacy Policy</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-disclaimer">
+            <p>&copy; 2023 Elite Gym. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
